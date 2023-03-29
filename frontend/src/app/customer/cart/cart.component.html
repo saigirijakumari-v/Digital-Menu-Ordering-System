@@ -1,0 +1,60 @@
+<h2 style="color:orangered; text-align:center;">Ordered Details</h2>
+<ng-container *ngIf="true">
+    <div class="card-table">
+        <div class="cart-item">
+            <table class="table table-responsive">
+                <thead>
+                    <tr >
+                        <th >Id</th>
+                        <!--<th>Dish Image</th>-->
+                        <!--<th>Item image </th>-->
+                        <th>Dishname</th>
+                        <th>Dishprice</th>
+                        <th>Type</th>
+                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let food of message; let i=index">
+                        <th scope="row">{{food.id}}</th>
+                       <!--  <img src="{{food.dishimage}}" alt="food images">-->
+                      <!--  <td>{{food.dishimage}}</td>-->
+                        <!--<td>Image</td>-->
+                        <td>{{food.dishname}}</td>
+                        <td>Rs.{{food.dishprice}}</td>
+                        <td>{{food.type }}</td>
+                        <td>
+                            <button class = "btn btn-danger" (click)="delete(food,i)">Remove</button>
+                        </td>
+                        <td>
+                            <button class = "btn btn-danger" (click)="like()" >Like</button>
+                        </td>
+                        <td>
+                            <button class = "btn btn-danger" (click)="comment()" >Comment</button>
+                        </td>
+                        
+                        
+                    </tr>
+                </tbody>
+            </table>
+            <button (click)="placeorder()" id="bt" class="btn btn-primary">Place Order</button>
+        </div>
+
+    </div>
+
+</ng-container>
+
+<ng-container *ngIf="false">
+<div class="container">
+    <div class="card">
+        <h5 class="card-title">My Cart</h5>
+    
+    </div>
+    <div class="center">
+        
+        <h4>Cart is empty</h4> 
+        <h6>Add food to cart</h6>
+        <button class="btn btn-primary" >Add Now</button>
+    </div>
+</div>
+</ng-container>   

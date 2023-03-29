@@ -1,0 +1,74 @@
+<div>
+  <h4 class="text-center mt-5"> Food Menu Items</h4>
+    <button class="btn btn-danger m-3 px-5" type="button" (click)="addbutton()"  data-bs-toggle="modal" data-bs-target="#addupdateModal">Add Item</button>
+    <table class="table m-4">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Dish Name</th>
+                <th scope="col">Dish Image</th>
+                <th scope="col">Dish Price</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let dish of fooddata">
+                <td>{{dish.id}}</td>
+                <td>{{dish.dishname}}</td>
+                <td><img src="{{dish.dishimage}}" width="70" height="50" alt=""></td>
+                <td>RS.{{dish.dishprice}}</td>
+                <td>
+                    <button class="btn btn-info" type="button" data-bs-toggle="modal" (click)="editItem(dish._id)" data-bs-target="#addupdateModal">Edit</button>
+                    <button class="btn btn-danger mx-3" (click)="deleteItem(dish._id)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="addupdateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Items to Menu List</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form  ngNativeValidate >
+                <div class="mb-3">
+                  <label for="InputItem" class="form-label">Dish Name</label>
+                  <input type="text"  class="form-control" name="dname" [(ngModel)]="dname" required>
+                </div>
+                <div class="mb-3">
+                  <label for="ItemPrice" class="form-label">Dish Price</label>
+                  <input type="number" class="form-control" name="dprice" [(ngModel)]="dprice" required>
+                </div>
+                <div class="mb-3">
+                  <label for="ItemPrice" class="form-label">Dish Type</label>
+                  <input type="text" class="form-control" name="dtype" [(ngModel)]="dtype" ng-required="true">
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" *ngIf="method==true" (click)="addDishItem()" data-bs-dismiss="modal"  class="btn btn-primary">Add</button>
+          <button type="button" *ngIf="method==false" (click)="updateItem()"  data-bs-dismiss="modal" class="btn btn-primary">Update</button>
+        </div>
+
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <div *ngIf="method;then trueblock else falseblock ">
+            <ng-template #trueblock>
+              <button type="button" (click)="addDishItem()" data-bs-dismiss="modal"  class="btn btn-primary">Add</button>
+            </ng-template>
+            <ng-template #falseblock>
+              <button type="button"  data-bs-dismiss="modal" class="btn btn-primary">Update</button>
+            </ng-template>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+
+  

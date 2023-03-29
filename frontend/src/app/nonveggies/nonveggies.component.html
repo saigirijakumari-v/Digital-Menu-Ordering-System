@@ -1,0 +1,10 @@
+<div class="nonveggies d-flex flex-wrap align-items-center justify-content-center">
+    <div class="product" *ngFor="let nonveggie of nonveggies_data">
+        <img src="{{nonveggie.dishimage}}" alt="{{nonveggie.dishname}}">
+        <h6>{{nonveggie.dishname}}</h6>
+        <div class="d-flex justify-content-between align-items-center p-2">
+            <p class="m-0">RS.{{nonveggie.dishprice}}</p>
+            <button type="button" class="add">Add</button>
+        </div>
+    </div>
+</div>

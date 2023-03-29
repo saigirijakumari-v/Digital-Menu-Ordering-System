@@ -1,0 +1,46 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h5 style="color:aliceblue"> Digital Menu Ordering</h5>
+        <div class=" d-flex mt-1">
+            <button type="button" routerLink="orders" class="btn btn-primary px-3 ">chef Dashboard</button>
+            <button type="button" routerLink="/" class="btn btn-primary px-5 ">Logout</button>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h4 class="text-center mb-5"> Chef Delivery and Availability Status</h4>
+    <div class="row">
+        <div class="col xl-12 lg-12 md-12 sm-12 xs-12">
+            <div class="table-responsive">
+                <div class="table  table-striped border-secondary align-middle">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Order Id</th>
+                                <th scope="col">Order Item</th>
+                                <th scope="col">Delivery Status</th>
+                                <th scope="col">Avilability Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let order of orders_data">
+                                <td scope="col">{{order._id}}</td>
+                                <td scope="col">{{order.dishname}}</td>
+                                <td scope="col">
+                                    <button type="submit" class="btn btn-primary me-3" (click)="delivered(order._id)">Delivered</button>
+                                    <button type="submit" class="btn btn-secondary" (click)="preparing(order._id)">Preparing</button>
+                                </td>
+                                <td scope="col">
+                                    <button type="submit" class="btn btn-success me-3" (click)="avaiability(order._id)">Availabile</button>
+                                    <button type="submit" class="btn btn-danger" (click)="closed(order._id)">Closed</button>
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

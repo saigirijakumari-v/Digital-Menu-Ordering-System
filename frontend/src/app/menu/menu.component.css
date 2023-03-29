@@ -1,0 +1,10 @@
+#fbg{
+    background-image: url("../../assets/fm.png");
+    background-size: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 601px;
+}
+.text-center{
+    color: aliceblue;
+}

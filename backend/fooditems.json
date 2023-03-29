@@ -1,0 +1,107 @@
+[{
+  "id": 2,
+  "dishimage": "https://img.freepik.com/free-photo/upma-uppumavu-uppittu-is-indian-popular-breakfast-dish-most-common-south-maharashtra_466689-75427.jpg?w=900&t=st=1669568097~exp=1669568697~hmac=9164663402fa27b5fea16a789d3308962fd91f9befbfd5c9497a860f3d1737ae",
+  "dishname": "Girija",
+  "dishprice": 1000,
+  "type": "dish"
+},{
+  "id": 3,
+  "dishimage": "https://img.freepik.com/free-photo/pohe-poha-pohaa-also-known-as-pauwa-sira-chira-aval-bajil-among-many-other-names-is-flattened-rice-originating-from-indian-subcontinent_466689-75323.jpg?w=900&t=st=1669567761~exp=1669568361~hmac=f00265c16f886ce88bc80841b3250f4b5041cb48bb3096e0674f660c2ce16994",
+  "dishname": "Pohaa with lemon",
+  "dishprice": 60,
+  "type": "tiffin"
+},{
+  "id": 4,
+  "dishimage": "https://img.freepik.com/free-photo/indian-tasty-roti-composition_23-2149073358.jpg?w=900&t=st=1669568013~exp=1669568613~hmac=6c0a562faa223c42acdcef1b38d796c071b443a9e8c7fce5a75069370e36a8b5",
+  "dishname": "Roti with curry",
+  "dishprice": 100,
+  "type": "tiffin"
+},{
+  "id": 5,
+  "dishimage": "https://img.freepik.com/free-photo/mixed-dal-vada-pakoda-is-indian-snack-served-with-tomato-ketchup-green-chutney_466689-72831.jpg?w=900&t=st=1669568268~exp=1669568868~hmac=3fd7e824190e11418903c55a64c1aef44eedd15d4618b2df7d4b28c45cb43f15",
+  "dishname": "Mixed dal vada with chetni",
+  "dishprice": 80,
+  "type": "tiffin"
+},{
+  "id": 6,
+  "dishimage": "https://img.freepik.com/free-photo/aloo-paratha-gobi-paratha-also-known-as-potato-cauliflower-stuffed-flatbread-dish-originating-from-indian-subcontinent_466689-76233.jpg?w=900&t=st=1669568459~exp=1669569059~hmac=a1cfca9cd9f98bd58008dfcdac53ffab7ddfa0aa6e155285f1e0500c20704262",
+  "dishname": "Allo parata with tamata",
+  "dishprice": 120,
+  "type": "tiffin"
+},{
+  "id": 7,
+  "dishimage": "https://img.freepik.com/free-photo/mutton-lamb-biriyani-with-basmati-rice-served-bowl-moody-background_466689-72651.jpg?w=900&t=st=1669570154~exp=1669570754~hmac=186c5c0b21839ba1136b15bbed1bd9b8d634ef0012964a4403db50e417b51e22",
+  "dishname": "Mutton Biryani",
+  "dishprice": 300,
+  "type": "nonveg"
+},{
+  "id": 8,
+  "dishimage": "https://img.freepik.com/free-photo/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus_466689-72554.jpg?w=900&t=st=1669570667~exp=1669571267~hmac=eaf7f0a583afc181b2f5fd83becee8ccabedfd600fff78b40c706aef784dea61",
+  "dishname": "Chicken biryani",
+  "dishprice": 260,
+  "type": "nonveg"
+},{
+  "id": 9,
+  "dishimage": "https://img.freepik.com/free-photo/egg-biryani-basmati-rice-cooked-with-masala-roasted-eggs-spices-served-with-yogurt-selective-focus_466689-72564.jpg?w=360&t=st=1669570754~exp=1669571354~hmac=7547b99fe6d01cb5c8fa099880c1402f9d3202fb33a10b87c39e05e5cc913c94",
+  "dishname": "Egg biryani",
+  "dishprice": 220,
+  "type": "nonveg"
+},{
+  "id": 10,
+  "dishimage": "https://img.freepik.com/free-photo/authentic-fish-biryani-served-white-plate-handi_466689-72629.jpg?w=900&t=st=1669570800~exp=1669571400~hmac=9f065ead51a8fc6da50776bd207620f30c578d5687b11da0a4115581abf9594f",
+  "dishname": "Fish biryani",
+  "dishprice": 350,
+  "type": "nonveg"
+},{
+  "id": 11,
+  "dishimage": "https://img.freepik.com/free-photo/chicken-fried-rice-is-popular-indian-chinese-indo-chinese-street-food-served-plate-with-chopsticks_466689-74726.jpg?w=900&t=st=1669570900~exp=1669571500~hmac=0ab4a4022de6cd53a0483c525c93169f08f1b2215868e27b7fceda457cd2767a",
+  "dishname": "Chicken Fried rice with chicken curry",
+  "dishprice": 200,
+  "type": "nonveg"
+},{
+  "id": 12,
+  "dishimage": "https://img.freepik.com/free-photo/whole-chicken-grill-served-with-rice-garnish-white-plate_114579-873.jpg?size=626&ext=jpg&uid=R85952432&ga=GA1.2.2097505688.1669282418&semt=sph",
+  "dishname": "Chicken grill",
+  "dishprice": 230,
+  "type": "nonveg"
+},{
+  "id": 13,
+  "dishimage": "https://img.freepik.com/free-photo/grilled-shrimp-salad_181624-959.jpg?w=360&t=st=1669571125~exp=1669571725~hmac=8f75c5916762c24f5e0a267b6094c0af394e40b3583da992aee6c125c220c6b2",
+  "dishname": "Grilled shrimp salad",
+  "dishprice": 320,
+  "type": "nonveg"
+},{
+  "id": 14,
+  "dishimage": "https://img.freepik.com/free-photo/cumin-rice-jeera-rice-is-popular-indian-main-course-item-made-using-basmati-rice-with-basic-spices_466689-75133.jpg?w=996&t=st=1669569205~exp=1669569805~hmac=07e72ad473810cbb71fccd3d406239ba85f30457f68b974c4fd630e4a89e35f8",
+  "dishname": "Cumin rice or Jeera rice",
+  "dishprice": 100,
+  "type": "veg"
+},{
+  "id": 15,
+  "dishimage": "https://img.freepik.com/free-photo/sambar-rice-sambar-sadam-one-pot-meal-from-south-indian-state-tamil-nadu-kerala_466689-75220.jpg?w=900&t=st=1669568947~exp=1669569547~hmac=1c7b8e7aea93b8f481e1a2c45a1914c3124fc811ecdea06358fe03d95b6b3409",
+  "dishname": "Sambar rice",
+  "dishprice": 120,
+  "type": "veg"
+},{
+  "id": 16,
+  "dishimage": "https://img.freepik.com/free-photo/steamed-rice-with-seafood-calamary-corns-carrot-peas-side-view_141793-3564.jpg?w=900&t=st=1669568994~exp=1669569594~hmac=0715e8da75c3f9fe6c567bd9de282ceec6e57b5fb1e27c8e0fb763cb1357f682",
+  "dishname": "Vegetable Steamed rice",
+  "dishprice": 100,
+  "type": "veg"
+},{
+  "id": 17,
+  "dishimage": "https://img.freepik.com/free-photo/schezwan-paneer-fried-rice-with-szechuan-sauce-cottage-cheese-cubes-served-bowl-plate-pan-selective-focus_466689-74425.jpg?w=900&t=st=1669569055~exp=1669569655~hmac=8fa9fb38a338b6ee023a7b13235be626c2cded429ddf7f87021ac030875d0beb",
+  "dishname": "Paneer fried rice",
+  "dishprice": 150,
+  "type": "veg"
+},{
+  "id": 18,
+  "dishimage": "https://img.freepik.com/free-photo/traditional-mexican-rice-served-with-green-peas-wooden-table_123827-20414.jpg?w=900&t=st=1669569107~exp=1669569707~hmac=730b5c4391646c1a84029c8009e9b8a2e59fce4c367f67c9f44f3c704665b641",
+  "dishname": "Green peas Rice",
+  "dishprice": 80,
+  "type": "veg"
+},{
+  "dishname": "dosa",
+  "dishprice": 70,
+  "type": "tiffin"
+}]

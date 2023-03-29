@@ -1,0 +1,29 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col xl-12 lg-12 md-12 sm-12 xs-12">
+            <div class="table-responsive">
+                <div class="table  table-striped border-secondary align-middle">
+                    <h4 class="text-center mt-3" >Chef's Status</h4>
+                    <table class="table table-striped mt-5">
+                        <thead>
+                            <tr>
+                                <th scope="col">Order Id</th>
+                                <th scope="col">Order Item</th>
+                                <th scope="col">Delivery Status</th>
+                                <th scope="col">Avilability Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let order of chefs_data">
+                                <td scope="col">{{order.id}}</td>
+                                <td scope="col">{{order.dishname}}</td>
+                                <td scope="col">{{order.availabilitystatus}}</td>
+                                <td scope="col">{{order.deliverystatus}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

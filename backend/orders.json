@@ -1,0 +1,46 @@
+[{
+  "id": 4,
+  "dishname": "Roti with tamata curry",
+  "dishprice": 150,
+  "type": "tiffin",
+  "availabilitystatus": "Available",
+  "deliverystatus": "Delivered"
+},{
+  "id": 5,
+  "dishname": "Mixed dal vada with chetni",
+  "dishprice": 80,
+  "type": "tiffin",
+  "availabilitystatus": "Closed",
+  "deliverystatus": "Delivered"
+},{
+  "id": 6,
+  "dishname": "Allo parata with tamata",
+  "dishprice": 120,
+  "type": "tiffin",
+  "availabilitystatus": "Available",
+  "deliverystatus": "Preparing"
+},{
+  "id": 12,
+  "dishname": "Chicken grill",
+  "dishprice": 230,
+  "type": "nonveg",
+  "deliverystatus": "Delivered",
+  "availabilitystatus": "Closed"
+},{
+  "id": 3,
+  "dishname": "Pohaa with lemon",
+  "dishprice": 60,
+  "type": "tiffin",
+  "availabilitystatus": "Available",
+  "deliverystatus": "Preparing"
+},{
+  "id": 2,
+  "dishname": "Upma with veggies - 1",
+  "dishprice": 75,
+  "type": "tiffin"
+},{
+  "id": 4,
+  "dishname": "Roti with curry",
+  "dishprice": 100,
+  "type": "tiffin"
+}]

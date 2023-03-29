@@ -1,0 +1,40 @@
+
+
+<ul>
+    <li *ngFor="let food of foods;">
+        <a>
+        <img src="{{food.dishimage}}" alt="food images">
+            <div class="content">
+                <!--{{food.dishimage | json}}-->
+               <div class="name">
+                    {{food.id}}  {{food.
+                        dishname}}
+                </div>
+                <!--<span class="favorite {{food.favorite?'':'not'}}">♥</span>
+            add the like button here
+                <div class="product-item-footer">
+                   < <div class="origins">
+                        <span *ngFor="let origin of food.origins">
+                            {{origin}}
+                        </span>
+                    <div class="cook-Time">
+                       <span>🕐</span>
+                        {{food.cookTime}}
+                    </div>-->
+                    <div class="price">
+                       
+                        Rs.{{food.dishprice}}
+                    </div>
+                    <div class="type">
+                       
+                        {{food.type}}
+                    </div>
+                   <button type="button" (click)="add(food)" class="btn btn-primary">Add</button>
+              </div>
+
+               <!--</div>
+            </div>-->
+        </a>
+        
+    </li>
+</ul>

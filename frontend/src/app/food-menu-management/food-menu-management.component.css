@@ -1,0 +1,24 @@
+.menu{
+    background-image: url("../../assets/menu_bg.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: 100% ;  
+    background-size: cover;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.menu button{
+    margin: 0px 15px;
+}
+
+.menu button:hover{
+    border:rgb(158, 8, 8);
+    background-color: rgb(208, 115, 2);
+}

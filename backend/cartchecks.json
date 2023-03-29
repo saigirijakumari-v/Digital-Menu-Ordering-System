@@ -1,0 +1,19 @@
+[{
+  "id": 4,
+  "dishimage": "https://img.freepik.com/free-photo/indian-tasty-roti-composition_23-2149073358.jpg?w=900&t=st=1669568013~exp=1669568613~hmac=6c0a562faa223c42acdcef1b38d796c071b443a9e8c7fce5a75069370e36a8b5",
+  "dishname": "Roti with tamata curry",
+  "dishprice": 150,
+  "type": "tiffin"
+},{
+  "id": 5,
+  "dishimage": "https://img.freepik.com/free-photo/mixed-dal-vada-pakoda-is-indian-snack-served-with-tomato-ketchup-green-chutney_466689-72831.jpg?w=900&t=st=1669568268~exp=1669568868~hmac=3fd7e824190e11418903c55a64c1aef44eedd15d4618b2df7d4b28c45cb43f15",
+  "dishname": "Mixed dal vada with chetni",
+  "dishprice": 80,
+  "type": "tiffin"
+},{
+  "id": 6,
+  "dishimage": "https://img.freepik.com/free-photo/aloo-paratha-gobi-paratha-also-known-as-potato-cauliflower-stuffed-flatbread-dish-originating-from-indian-subcontinent_466689-76233.jpg?w=900&t=st=1669568459~exp=1669569059~hmac=a1cfca9cd9f98bd58008dfcdac53ffab7ddfa0aa6e155285f1e0500c20704262",
+  "dishname": "Allo parata with tamata",
+  "dishprice": 120,
+  "type": "tiffin"
+}]
